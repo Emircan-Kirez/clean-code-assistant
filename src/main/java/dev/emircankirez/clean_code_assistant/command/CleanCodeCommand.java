@@ -17,8 +17,8 @@ public class CleanCodeCommand {
     }
 
     @Command(command = "welcome")
-    public String welcome() {
-        return "Welcome to Clean Code Assistant!";
+    public String welcome(String name) {
+        return "Welcome to Clean Code Assistant! How can I help you, " + name + "?";
     }
 
     @Command(command = "q")
