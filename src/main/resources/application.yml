@@ -1,0 +1,10 @@
+spring:
+  application:
+    name: clean-code-assistant
+  ai:
+    ollama:
+      chat:
+        model: llama3.1:8b
+  shell:
+    interactive:
+      enabled: true
